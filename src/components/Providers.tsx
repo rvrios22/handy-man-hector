@@ -1,4 +1,4 @@
-import { HeroUIProvider, Toast, ToastProvider } from '@heroui/react'
+import { HeroUIProvider, Toast, ToastProvider } from "@heroui/react";
 
 function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -6,7 +6,7 @@ function Providers({ children }: { children: React.ReactNode }) {
       <ToastProvider />
       {children}
     </HeroUIProvider>
-  )
+  );
 }
 
-export default Providers
+export default Providers;
